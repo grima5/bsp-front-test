@@ -29,7 +29,7 @@ jobs:
         aws-region: us-west-2
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 sync ./front s3://ksh-front-test --delete
+      run: aws s3 sync ./toy/ s3://ksh-front-test --delete
 
 
 
