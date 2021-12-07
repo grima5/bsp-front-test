@@ -8,3 +8,7 @@ git/
 github/
 git
 github
+git*
+.git*
+.git/*
+.github/*
